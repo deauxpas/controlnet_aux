@@ -50,7 +50,7 @@ MODELS = {
     'depth_leres++': {'class': LeresDetector, 'checkpoint': True}, 
     # instantiate
     'shuffle': {'class': ContentShuffleDetector, 'checkpoint': False},
-    'mediapipe_face': {'class': MediapipeFaceDetector, 'checkpoint': False},
+    # 'mediapipe_face': {'class': MediapipeFaceDetector, 'checkpoint': False},
     'canny': {'class': CannyDetector, 'checkpoint': False},
 }
 
@@ -81,7 +81,7 @@ MODEL_PARAMS = {
     'depth_zoe': {},
     'depth_leres': {'boost': False},
     'depth_leres++': {'boost': True},
-    'mediapipe_face': {},
+    # 'mediapipe_face': {},
 }
 
 CHOICES = f"Choices for the processor are {list(MODELS.keys())}"
