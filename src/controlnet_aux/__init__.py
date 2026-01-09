@@ -8,7 +8,7 @@ from .leres import LeresDetector
 from .lineart import LineartDetector
 from .lineart_anime import LineartAnimeDetector
 from .lineart_standard import LineartStandardDetector
-from .mediapipe_face import MediapipeFaceDetector
+# from .mediapipe_face import MediapipeFaceDetector
 from .midas import MidasDetector
 from .mlsd import MLSDdetector
 from .normalbae import NormalBaeDetector
