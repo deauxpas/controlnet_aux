@@ -7,10 +7,16 @@ from typing import Dict, Optional, Union
 
 from PIL import Image
 
+# from controlnet_aux import (CannyDetector, ContentShuffleDetector, HEDdetector,
+#                             LeresDetector, LineartAnimeDetector,
+#                             LineartDetector, MediapipeFaceDetector,
+#                             MidasDetector, MLSDdetector, NormalBaeDetector,
+#                             OpenposeDetector, PidiNetDetector, ZoeDetector,
+#                             DWposeDetector)
+
 from controlnet_aux import (CannyDetector, ContentShuffleDetector, HEDdetector,
                             LeresDetector, LineartAnimeDetector,
-                            LineartDetector, MediapipeFaceDetector,
-                            MidasDetector, MLSDdetector, NormalBaeDetector,
+                            LineartDetector, MidasDetector, MLSDdetector, NormalBaeDetector,
                             OpenposeDetector, PidiNetDetector, ZoeDetector,
                             DWposeDetector)
 
